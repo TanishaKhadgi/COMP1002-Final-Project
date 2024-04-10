@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zima- Contact</title>
+</head>
+<body>
+    <!-- Contact Form -->
+    <form name="Contact form">
+        <h2>Contact Us</h2>
+        <label for="name">Name:<input type="text" id="name" name="name"></label><br> <!-- Label for Name input field -->
+        <label for="mail">Email:<input type="mail" id="mail" name="mail"></label> <!-- Label for Email input field -->
+    </form>
+    <br>
+    <!-- Review Form -->
+    <form name="review">
+        <fieldset>
+            <legend>Your Review</legend>
+            <label for="opinion">How did you hear about us:
+                <select name="opinion" id="opinion">
+                    <!-- Dropdown options for how user heard about -->
+                    <option value="google">Google</option>
+                    <option value="magazine">Magazine</option>
+                    <option value="friends">Friends</option> <!-- Fixed typo here -->
+                </select>
+            </label><br>
+            <label>Would you visit us again?</label><br>
+            <label for="yes">Yes <input type="radio" id="yes" name="visit"></label> <!-- Radio button for Yes option -->
+            <label for="no">No <input type="radio" id="no" name="visit"></label> <!-- Radio button for No option -->
+            <label for="maybe">Maybe <input type="radio" id="maybe" name="visit"></label> <!-- Radio button for Maybe option --><br><br>
+            <label for="comments">Comments: <br>
+                <textarea id="comments" name="comments" cols="30" rows="10"></textarea> 
+            </label><br>
+            <input type="submit"> <!-- Submit button for form submission -->
+        </fieldset>
+    </form>
+</body>
+</html>
