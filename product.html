@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zima- drink</title>
+    <!-- Linking to external CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Linking to external JavaScript file with defer attribute -->
+    <script src="skeleton.js" defer></script>
+</head>
+<body>
+    <main>
+        <!-- Section for displaying product information -->
+        <section id="products">
+            <div class="container">
+                <!-- Heading for the product section -->
+                <h2>The famous drink of the 90s.</h2>
+                <div class="product-grid">
+                    <!-- Product card -->
+                    <div class="product-card" data-id="1" data-price="$3.00">
+                        <!-- Product information -->
+                        <div class="product-info">
+                            <!-- Product image with alt attribute for accessibility -->
+                            <img src="zima4.jpg" alt="Product Image" width="300">
+                            <!-- Description of the product -->
+                            <p>Welcome to Zima! All right, that’s all the official mumbo jumbo. But the real heads want to know, what did it taste like? According to some, it tasted “like Sprite.” Apparently, Zimas were often paired with hard candy like Skittles or Jolly Ranchers to make the flavor more palatable. Again, I can’t speak to this—remember, the trucks and Pokemon—but this certainly tracks with the disgustingly sweet alcohols I partook of almost exclusively in my early 20s.</p>
+                            <!-- Price of the product -->
+                            <span class="price">$3.00</span>
+                            <!-- Input field for selecting quantity -->
+                            <input type="number" class="quantity" value="0" min="0">
+                            <!-- Button to add product to cart -->
+                            <button class="btn-add-to-cart">Add to Cart</button>
+                        </div>
+                    </div> <!-- End of product card -->
+                </div> <!-- End of product grid -->
+            </div> <!-- End of container -->
+        </section> <!-- End of products section -->
+    </main>
+</body>
+</html>
