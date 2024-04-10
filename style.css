@@ -1,0 +1,93 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Montserrat', sans-serif; /* Set font family */
+    background-color: blueviolet; /* Set background color */
+    color: black; /* Set text color */
+    line-height: 1.6; /* Set line height */
+}
+
+.container {
+    max-width: 960px; /* Set maximum width */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add padding */
+}
+
+header {
+    background-color: #222; /* Set background color */
+    color: blue; /* Set text color */
+    padding: 20px 0; /* Add padding */
+    text-align: center; /* Center align text */
+}
+
+header h1 {
+    font-size: 36px; /* Set font size */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+}
+
+nav ul li {
+    display: inline; /* Display list items inline */
+    margin-right: 20px; /* Add right margin */
+}
+
+nav ul li a {
+    color: black; /* Set link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Set font size */
+}
+
+nav ul li a:hover {
+    color: violet; /* Change link color on hover */
+}
+
+main {
+    padding: 20px 0; /* Add padding */
+}
+
+#hero {
+    text-align: center; /* Center align text */
+    padding: 100px 0; /* Add padding */
+    background-color: plum; /* Set background color */
+    color: mediumpurple; /* Set text color */
+}
+
+#hero h2 {
+    font-size: 48px; /* Set font size */
+    margin-bottom: 20px; /* Add bottom margin */
+}
+
+#hero p {
+    font-size: 24px; /* Set font size */
+    margin-bottom: 30px; /* Add bottom margin */
+}
+
+.btn {
+    display: inline-block; /* Display as inline block */
+    padding: 15px 30px; /* Add padding */
+    background-color: mediumaquamarine; /* Set background color */
+    color: blueviolet; /* Set text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Set font size */
+    border-radius: 5px; /* Add border radius */
+}
+
+.btn:hover {
+    background-color: red; /* Change background color on hover */
+}
+
+footer {
+    background-color: yellowgreen; /* Set background color */
+    color: burlywood; /* Set text color */
+    text-align: center; /* Center align text */
+    padding: 20px 0; /* Add padding */
+    margin-top: 50px; /* Add top margin */
+}
